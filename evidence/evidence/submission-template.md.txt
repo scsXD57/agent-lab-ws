@@ -1,0 +1,61 @@
+# My lab evidence / 我的實作紀錄
+
+Use a group code, not real names or student IDs in shared files. / 共用檔只寫組別代碼，不寫姓名或學號。
+
+- Group code / 組別：scsXD57
+- Tool / 工具：GitHub Browser / Web Interface
+- Route / 路线：individual 個人
+- Tasks completed / 完成題目：Task A, Task B, Task D, Final Submission
+- Material / 素材：NDHU classroom tasks 東華課堂版
+- For original-pack work: task number, author/source link and version / 原版實作：題號、作者來源連結與版本：N/A
+- My role and what I checked / 我的角色與實際檢查：Individual learner. Verified file contents, file structure, commit messages, and repository status manually.
+
+## Scope and plan / 範圍與計畫
+
+Allowed input and output folders / 可讀取與輸出的資料夾：
+- input: practice/01-club-files/input
+- output: practice/01-club-files/output, practice/02-campus-picker/output, practice/04-review/, evidence/
+
+What I asked for / 原始需求：
+1. Task A: Organize practice files by excluding duplicates and backups.
+2. Task B: Create an HTML activity picker app using JSON data.
+3. Task D: Submit a rejection note in Markdown format.
+4. Final Step: Submit learning evidence and reflection.
+
+What I checked before execution / 動手前我檢查了什麼：
+Checked target directory paths, commit message formats required for each task, and validated that flawed simulated plans were for discussion only and not for execution.
+
+## Tests actually performed / 我真的做過的測試
+
+| Test / 測試 | Expected / 預期 | Observed / 實際 | Evidence / 證據 |
+|---|---|---|---|
+| 1 | File organization in Task A excluding backups | 9 clean files uploaded to `practice/01-club-files/output` | Commit `A: organize club files` |
+| 2 | HTML rendering of activity picker in Task B | Created `index.html` with JavaScript array parsing | Commit `B v1: activity picker` |
+| 3 | Rejection note creation in Task D | Created `my-rejection.md` with detailed review feedback | Commit `D: rejection` |
+
+## One revision / 一次修改
+
+Before / 原來的情況：
+Initial `index.html` structure in Task B (v1) created with basic activity data.
+
+Request / 我提出的修改：
+Updated structure and updated commit message to mark version iteration.
+
+After and retest / 修改後與重測結果：
+File updated and committed successfully as B v2.
+
+New requirement or defect? / 新需求還是原規格未做到？
+New requirement (version iteration).
+
+## One rejection / 一次退回
+
+Which action I reject and why / 退回哪個動作、為什麼：
+Rejected the flawed simulated plan that proposed deleting duplicate files automatically, treating 'final2' as the latest version without verification, and publishing results automatically.
+
+An acceptable alternative / 可以怎麼改：
+Verify file timestamps and contents manually before determining the latest version. Archive duplicate files to a backup folder instead of deleting them, and require human review before publishing.
+
+## Still unverified / 還沒驗證
+
+What I cannot claim is complete / 哪些事不能說已完成：
+Live deployment on external web servers (GitHub Pages / hosting) is not tested, as files are verified directly within the repository structure.
